@@ -20,3 +20,4 @@
 8. Citações e Códigos - ex008b - https://github.com/juniorpedroso/html-css/tree/main/exercicios/ex008b
 9. Listas OL e UL / Listas Mistas e de Definição - ex009 - https://github.com/juniorpedroso/html-css/tree/main/exercicios/ex009
 10. Links e Âncoras em HTML5 / Links Internos - ex010 - https://github.com/juniorpedroso/html-css/tree/main/exercicios/ex010
+11. [ex0010](https://github.com/juniorpedroso/html-css/tree/main/exercicios/ex010) 
