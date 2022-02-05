@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700,;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas    
+            cm, mm, in (polegadas), px (pixel), pt (ponto), pc (paica)
+
+            Medidas Relativas
+            em (Relativa ao M maiúsculo de uma fonte), ex (relativo a altura do x minúsculo de uma fonte), rem (relativo ao root, a fonte que está definido no body), vw (view width - largura da tela), vh (view heigth - altura da tela), %
+
+            O ideal e recomendado pela W3c é usar as medidas px e em
+            16px é o tamanho de fonte geralmente utilizado
+            16px geralmente = 1em
+
+            */
+            font-size: 1 em;
+            font-weight: normal;
+            /*  lighter normal bold bolder */ 
+            font-style: normal;
+        }
+
+        h1 {
+            /*  shorthand font - ATALHO
+            - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'Work Sans0, sans-serif';
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+     
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident saepe tenetur dignissimos sint obcaecati nemo harum voluptates fugit mollitia, officia, molestias consectetur nostrum enim, quo eligendi ab facilis possimus eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam maiores rerum nesciunt perferendis id earum mollitia quibusdam corrupti! Illo voluptas explicabo nulla ea repellat in sed soluta minus temporibus vel.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minima placeat quod, corrupti molestiae quas aperiam. Tenetur laborum minima hic facere, consequatur dolores alias sapiente odit nemo officia voluptates perspiciatis?
+    </p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure ducimus recusandae, maiores quis eum natus vel quasi molestiae architecto repellat pariatur ea alias fugiat, reprehenderit doloremque fuga officiis temporibus quidem.</p>
+</body>
+</html>
