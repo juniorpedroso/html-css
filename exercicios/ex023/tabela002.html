@@ -14,6 +14,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td,
@@ -33,6 +34,24 @@
         tfoot {
             background-color: gray;
             color: white;
+        }
+
+        /* Fixando o cabeçalho */
+        thead>tr>th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        /* Ao invés de 2n posso colocar odd (impar) ou even (par) */
+        tbody>tr:nth-child(odd) {
+            /* 2n-1 */
+            background-color: white;
+        }
+
+        tbody>tr:nth-child(even) {
+            /* 2n */
+            background-color: lightgray;
         }
 
         .num {
@@ -59,7 +78,7 @@
         <thead>
             <tr>
                 <th scope="col">Estado</th>
-                <th scope="col" style="width: 50px">População</th>
+                <th scope="col" style="width: 90px">População</th>
             </tr>
         </thead>
         <tbody>
@@ -178,6 +197,72 @@
             <td class="num"><strong>213 317 639</strong></td>
         </tfoot>
     </table>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quae suscipit consectetur facere numquam
+        recusandae facilis dicta, sapiente praesentium nihil, repellat aspernatur similique quasi et illum perferendis
+        aliquam laborum quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam totam quidem
+        perspiciatis sequi molestiae voluptas blanditiis, quas saepe? Libero quibusdam autem eius cum? Dignissimos
+        repellendus cum, velit officiis non nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+        voluptatem, quae veniam enim, natus minus et, ipsam ab laboriosam magnam rem. Itaque, quo recusandae veritatis
+        ratione id repellat magni natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem incidunt ipsa
+        voluptas corporis dicta nisi, alias nostrum vitae vero tempora repellat perspiciatis in provident illum
+        explicabo praesentium cupiditate veniam inventore?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quae suscipit consectetur facere numquam
+        recusandae facilis dicta, sapiente praesentium nihil, repellat aspernatur similique quasi et illum perferendis
+        aliquam laborum quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam totam quidem
+        perspiciatis sequi molestiae voluptas blanditiis, quas saepe? Libero quibusdam autem eius cum? Dignissimos
+        repellendus cum, velit officiis non nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+        voluptatem, quae veniam enim, natus minus et, ipsam ab laboriosam magnam rem. Itaque, quo recusandae veritatis
+        ratione id repellat magni natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem incidunt ipsa
+        voluptas corporis dicta nisi, alias nostrum vitae vero tempora repellat perspiciatis in provident illum
+        explicabo praesentium cupiditate veniam inventore?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quae suscipit consectetur facere numquam
+        recusandae facilis dicta, sapiente praesentium nihil, repellat aspernatur similique quasi et illum perferendis
+        aliquam laborum quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam totam quidem
+        perspiciatis sequi molestiae voluptas blanditiis, quas saepe? Libero quibusdam autem eius cum? Dignissimos
+        repellendus cum, velit officiis non nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+        voluptatem, quae veniam enim, natus minus et, ipsam ab laboriosam magnam rem. Itaque, quo recusandae veritatis
+        ratione id repellat magni natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem incidunt ipsa
+        voluptas corporis dicta nisi, alias nostrum vitae vero tempora repellat perspiciatis in provident illum
+        explicabo praesentium cupiditate veniam inventore?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quae suscipit consectetur facere numquam
+        recusandae facilis dicta, sapiente praesentium nihil, repellat aspernatur similique quasi et illum perferendis
+        aliquam laborum quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam totam quidem
+        perspiciatis sequi molestiae voluptas blanditiis, quas saepe? Libero quibusdam autem eius cum? Dignissimos
+        repellendus cum, velit officiis non nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+        voluptatem, quae veniam enim, natus minus et, ipsam ab laboriosam magnam rem. Itaque, quo recusandae veritatis
+        ratione id repellat magni natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem incidunt ipsa
+        voluptas corporis dicta nisi, alias nostrum vitae vero tempora repellat perspiciatis in provident illum
+        explicabo praesentium cupiditate veniam inventore?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quae suscipit consectetur facere numquam
+        recusandae facilis dicta, sapiente praesentium nihil, repellat aspernatur similique quasi et illum perferendis
+        aliquam laborum quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam totam quidem
+        perspiciatis sequi molestiae voluptas blanditiis, quas saepe? Libero quibusdam autem eius cum? Dignissimos
+        repellendus cum, velit officiis non nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+        voluptatem, quae veniam enim, natus minus et, ipsam ab laboriosam magnam rem. Itaque, quo recusandae veritatis
+        ratione id repellat magni natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem incidunt ipsa
+        voluptas corporis dicta nisi, alias nostrum vitae vero tempora repellat perspiciatis in provident illum
+        explicabo praesentium cupiditate veniam inventore?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quae suscipit consectetur facere numquam
+        recusandae facilis dicta, sapiente praesentium nihil, repellat aspernatur similique quasi et illum perferendis
+        aliquam laborum quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam totam quidem
+        perspiciatis sequi molestiae voluptas blanditiis, quas saepe? Libero quibusdam autem eius cum? Dignissimos
+        repellendus cum, velit officiis non nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+        voluptatem, quae veniam enim, natus minus et, ipsam ab laboriosam magnam rem. Itaque, quo recusandae veritatis
+        ratione id repellat magni natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem incidunt ipsa
+        voluptas corporis dicta nisi, alias nostrum vitae vero tempora repellat perspiciatis in provident illum
+        explicabo praesentium cupiditate veniam inventore?
+    </p>
 </body>
 
 </html>
