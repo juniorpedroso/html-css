@@ -1,0 +1,95 @@
+body {
+    background-color: antiquewhite;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    /* margin: 10px; */
+    border-radius: 10px;
+}
+
+.bloco-1 {
+    background-color: lightblue;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bloco-2 {
+    background: lightpink;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bloco-3 {
+    background: lightcoral;
+    text-align: center;
+    font-size: 1rem;
+}
+.bloco-4 {
+    background-color: lightblue;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bloco-5 {
+    background: lightpink;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bloco-6 {
+    background: lightcoral;
+    text-align: center;
+    font-size: 1rem;
+}
+.bloco-7 {
+    background-color: lightblue;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bloco-8 {
+    background: lightpink;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bloco-9 {
+    background: lightcoral;
+    text-align: center;
+    font-size: 1rem;
+}
+.bloco-10 {
+    background-color: lightblue;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bloco-11 {
+    background: lightpink;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bloco-12 {
+    background: lightcoral;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    border: 1px solid blue;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 10px;
+    column-gap: 30px;
+}
