@@ -2,13 +2,24 @@
 
 .columns {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   gap: 2rem;
   border: 10px solid firebrick;
 }
 
 .columns > * {
   flex-basis: 100%;
+}
+
+.card:nth-child(2) {
+  background: pink;
+  align-self: flex-end.cont;
+}
+
+@media (min-width: 750px) {
+  .columns {
+    flex-direction: row;
+  }  
 }
 
 /* .columns {
